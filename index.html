@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="The math program, in JS" />
+    <meta name="description" content="he Address, with JS" />
     <meta name="keywords" content="mths, icd2o" />
     <meta name="author" content="Ain Jeong" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-  <title>The Name and Age program, in JS</title>
+  <title>he Address, with JS</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Name and Age program, in JS</span>
+        <span class="mdl-layout-title">The Address, with JS</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -33,18 +33,18 @@
       <div class="page-content">Please enter the following: </div>
       <br />
       <form>
-        <!-- Simple Textfield -->
-        <p>Street number</p>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="street-number">
-          <label class="mdl-textfield__label" for="street-number">Street number here ...</label>
-        </div>
         <!-- Numeric Textfield -->
-        <p>Street name</p>
+        <p>Street Number</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-name">
-          <label class="mdl-textfield__label" for="street-name">Street name here ...</label>
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
+          <label class="mdl-textfield__label" for="street-number">Street number here ...</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+        <!-- Simple Textfield -->
+        <p>Street Name</p>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="street-name">
+          <label class="mdl-textfield__label" for="street-number">Street name here ...</label>
         </div>
         <br />
         <!-- Raised button with ripple -->
@@ -55,7 +55,7 @@
       </form>
       <br />
       <div class="page-content-answer">
-        <div id="user-info"></div>
+        <div id="address"></div>
       </div>
     </main>
   </div>
